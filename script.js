@@ -11,7 +11,7 @@ async function getWeather(location){
         'Temp High (F)': weatherData.forecast.forecastday[i].day.maxtemp_f,
         'Average Temp (F)': weatherData.forecast.forecastday[i].day.avgtemp_f,
         'Temp Low (F)': weatherData.forecast.forecastday[i].day.mintemp_f,
-        'Average Humidity:': weatherData.forecast.forecastday[i].day.avghumidity,
+        'Average Humidity': weatherData.forecast.forecastday[i].day.avghumidity,
         'Chance of Rain %': weatherData.forecast.forecastday[i].day.daily_chance_of_rain,
         'Chance of Snow %': weatherData.forecast.forecastday[i].day.daily_chance_of_snow});
     return weatherDays;
