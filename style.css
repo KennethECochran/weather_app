@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+
+#content{
+    display: flex;
+    gap: 3vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.day{
+    height: 80vh;
+    width: 30vw;
+    background-color: yellow;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+}
